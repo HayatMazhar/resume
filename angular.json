@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "functions/dist/browser",
+            "outputPath": "docs/",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -78,7 +78,7 @@
                   "maximumError": "5mb"
                 }
               ],
-              "outputPath": "functions/dist/browser/es/",
+              "outputPath": "docs/",
               "baseHref": "/es/",
               "i18nFile": "src/locale/messages.es.xlf",
               "i18nFormat": "xlf",
@@ -136,7 +136,7 @@
         "server": {
           "builder": "@angular-devkit/build-angular:server",
           "options": {
-            "outputPath": "functions/dist/server",
+            "outputPath": "docs/",
             "main": "src/main.server.ts",
             "tsConfig": "src/tsconfig.server.json"
           },
