@@ -78,7 +78,7 @@
                   "maximumError": "5mb"
                 }
               ],
-              "outputPath": "docs/",
+              "outputPath": "/docs/",
               "baseHref": "/es/",
               "i18nFile": "src/locale/messages.es.xlf",
               "i18nFormat": "xlf",
