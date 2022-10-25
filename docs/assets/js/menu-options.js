@@ -37,7 +37,7 @@ $(document).ready(function () {
 
   // Typing Animation (Typed.js)
   $('#element').typed({
-    strings: ['Software developer'],
+    strings: ['Lead Full Stack Engineer'],
     typeSpeed: -1,
     loop: true,
     startDelay: 500,
